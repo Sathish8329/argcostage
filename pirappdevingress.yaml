@@ -14,20 +14,20 @@ spec:
         pathType: Prefix
         backend:
           service:
-            name: pirapp-api-service
+            name: pirapp-api-service-dev
             port:
               number: 8000
       - path: /auth
         pathType: Prefix
         backend:
           service:
-            name: pirapp-auth-service
+            name: pirapp-auth-service-dev
             port:
               number: 8080
       - path: /
         pathType: Prefix
         backend:
           service:
-            name: pirapp-frontend-service
+            name: pirapp-frontend-service-dev
             port:
               number: 80

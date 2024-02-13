@@ -24,7 +24,7 @@ spec:
 apiVersion: v1
 kind: Service
 metadata:
-  name: pirapp-auth-service
+  name: pirapp-auth-service-dev
   namespace: pirapp-dev  # Specify the namespace here
 spec:
   selector:

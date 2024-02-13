@@ -24,7 +24,7 @@ spec:
 apiVersion: v1
 kind: Service
 metadata:
-  name: pirapp-frontend-service
+  name: pirapp-frontend-service-dev
   namespace: pirapp-dev  # Specify the namespace here
 spec:
   selector:

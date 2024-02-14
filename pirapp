@@ -1,8 +1,8 @@
 apiVersion: networking.k8s.io/v1
 kind: Ingress
 metadata:
-  name: pirapp-ingress
-  namespace: pirapp
+  name: pirapp-ingress-dev
+  namespace: pirapp-dev
   annotations:
     kubernetes.io/ingress.class: "nginx"
 spec:

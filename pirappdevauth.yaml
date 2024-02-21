@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: auth
-        image: sathish8329/stagepirappauth:3
+        image: sathish8329/stagepirappauth:4
         ports:
         - containerPort: 8080
 

@@ -7,7 +7,7 @@ metadata:
     kubernetes.io/ingress.class: "nginx"
 spec:
   rules:
-  - host: "dev-test.pirapp.io"
+  - host: "*.test.pirapp.io"
     http:
       paths:
       - path: /api

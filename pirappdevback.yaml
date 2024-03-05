@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: api
-        image: sathish8329/stagepirappback:v1
+        image: sathish8329/stagepirappback:v4
         ports:
         - containerPort: 8000
 
